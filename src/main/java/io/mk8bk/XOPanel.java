@@ -8,7 +8,7 @@ public class XOPanel extends JPanel {
     /* gridCellWidth **/
     private final int gcw = 200;
 
-    private int[][] state;
+    private final int[][] state;
     protected int currentPlayer = 1; // 1:X 2:O
     protected int winner = 0; // 1: X 2:O
 
